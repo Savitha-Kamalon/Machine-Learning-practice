@@ -21,7 +21,7 @@ import seaborn as sns
 
 
 
-df = pd.read_csv('/Users/savithakamalon/Desktop/MachineLearning/HousingPriceData/train.csv')
+df = pd.read_csv('/Users/savithakamalon/Documents/MachineLearning/HousingPriceData/train.csv')
 df.head()
 
 df.isnull().sum()
